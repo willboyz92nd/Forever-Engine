@@ -128,6 +128,15 @@ class Character extends FNFSprite
 				animation.addByPrefix('singRIGHT', 'Dad Sing Note RIGHT', 24);
 				animation.addByPrefix('singDOWN', 'Dad Sing Note DOWN', 24);
 				animation.addByPrefix('singLEFT', 'Dad Sing Note LEFT', 24);
+				
+			case 'steve':
+			
+				frames = Paths.getSparrowAtlas('characters/Steve');
+				animation.addByPrefix('idle', 'Steve O Idle', 24, false);
+				animation.addByPrefix('singUP', 'Steve O Up', 24);
+				animation.addByPrefix('singRIGHT', 'Steve O Right', 24);
+				animation.addByPrefix('singDOWN', 'Steve O Down', 24);
+				animation.addByPrefix('singLEFT', 'Steve O Left', 24);
 
 				playAnim('idle');
 			case 'spooky':
